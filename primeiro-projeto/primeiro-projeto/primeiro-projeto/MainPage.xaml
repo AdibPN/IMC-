@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="primeiro_projeto.MainPage">
+
+    <StackLayout>
+        <Entry x:Name="txt_peso" Placeholder="peso" PlaceholderColor="Blue"/>
+        <Entry x:Name="txt_altura" Placeholder="altura" PlaceholderColor="Red"/>
+        <Label 
+	Text="Menor que 18.5 | abaixo do peso&#10;Entre 18.5 a 24.9 | Normal&#10;Entre 25.0 a 29.9 | excesso de peso&#10;Entre 30.0 a 34.9 | obesidade clase I&#10;Entre 35.0 a 40 | obesidade classeII&#10;maior que 40.0 | obesidade clase III"
+/>
+
+        <Button Text="ver" Clicked="Button_Clicked" />
+  
+   
+
+    </StackLayout>
+
+</ContentPage>
